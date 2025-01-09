@@ -26,6 +26,12 @@ public class MainActivity extends AppCompatActivity {
         myToolbar.setTitle(R.string.app_name);
         setSupportActionBar(myToolbar);
 
+        //parte no necesaria
+        TextView logo1 = (TextView) findViewById(R.id.TextViewTopTitle);
+        Animation fade1 = AnimationUtils.loadAnimation(this, R.anim.fade_in);
+        logo1.startAnimation(fade1);
+
+        // Animacion heredada para todos los elementos child de TableRow
         Animation spinin = AnimationUtils.loadAnimation(this, R.anim.custom_anim);
         LayoutAnimationController controller =
                 new LayoutAnimationController(spinin);
