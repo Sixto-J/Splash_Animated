@@ -3,6 +3,6 @@
     <dimen name="logo_size">58sp</dimen>
     <dimen name="version_size">20sp</dimen>
     <dimen name="version_spacing">3dp</dimen>
-    <dimen name="screen_title_size">40dp</dimen>
-    <dimen name="menu_item_size">34dp</dimen>
+    <dimen name="screen_title_size">40sp</dimen>
+    <dimen name="menu_item_size">34sp</dimen>
 </resources>
